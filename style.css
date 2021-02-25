@@ -1,0 +1,51 @@
+H1{
+    color:rgb(39, 179, 179)
+}
+h3{
+    color: cornflowerblue;
+}
+
+* img{
+border:solid;
+}
+
+.header{
+    background-color:rgb(75, 63, 128);
+    
+    justify-content: space-evenly;
+}
+
+.design{
+    background-color: cyan;
+    
+    
+}
+.item{
+    background-color: rgb(189, 132, 176);
+    
+   
+}
+a:link{
+    color: rgb(58, 20, 160);
+}
+
+a:visited{
+    color: green; 
+}
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+    opacity:0.3
+}
